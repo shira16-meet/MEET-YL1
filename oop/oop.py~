@@ -14,11 +14,10 @@ class Animal:
 	def sleep(self):
 		print (self.name+" is sleeping")
 
-raccoon=Animal(name='max',color='green',age=99,size='small')
-raccoon.print_all()
-raccoon.eat("bone")
-raccoon.sleep()
-
+dog=Animal(name='max',color='green',age=99,size='small')
+dog.print_all()
+dog.eat("bone")
+dog.sleep()
 panda=Animal(name="po",color="black and white",age=10,size='big')
 panda.print_all()
 panda.eat("leaf")
